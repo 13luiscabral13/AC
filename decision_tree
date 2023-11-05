@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<results_label0 &le; 0.5<br/>gini = 0.498<br/>samples = 1940<br/>value = [905, 1035]<br/>class = Playoff>, fillcolor="#e6f3fc"] ;
+1 [label=<gini = 0.0<br/>samples = 1035<br/>value = [0, 1035]<br/>class = Playoff>, fillcolor="#399de5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.0<br/>samples = 905<br/>value = [905, 0]<br/>class = No Playoff>, fillcolor="#e58139"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
