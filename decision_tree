@@ -6,7 +6,7 @@ edge [fontname="helvetica"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label=<homeW_ratio &le; 0.676<br/>gini = 0.146<br/>samples = 833<br/>value = [767, 66]<br/>class = No Playoff>, fillcolor="#e78c4a"] ;
 1 -> 2 ;
-3 [label=<d_stl &le; 317.5<br/>gini = 0.094<br/>samples = 807<br/>value = [767, 40]<br/>class = No Playoff>, fillcolor="#e68843"] ;
+3 [label=<o_3p% &le; 37.125<br/>gini = 0.094<br/>samples = 807<br/>value = [767, 40]<br/>class = No Playoff>, fillcolor="#e68843"] ;
 2 -> 3 ;
 4 [label=<gini = 0.063<br/>samples = 793<br/>value = [767, 26]<br/>class = No Playoff>, fillcolor="#e68540"] ;
 3 -> 4 ;
