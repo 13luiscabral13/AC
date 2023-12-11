@@ -16,6 +16,9 @@ df['tmID'] = df['tmID'].replace('ORL', 'CON')
 # sort by tmID
 df = df.sort_values(by=['tmID'])
 
+# rename column tmID to TeamID and playoff to Playoff
+df = df.rename(columns={'tmID': 'TeamID', 'playoff': 'Playoff'})
+
 # remove index column
 df = df.reset_index(drop=True)
 
