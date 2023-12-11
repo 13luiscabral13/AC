@@ -10,5 +10,5 @@ count_N = playoff_counts.get('N', 0)
 count_Y = playoff_counts.get('Y', 0)
 
 # Print the counts
-print(f"Count of 'N': {count_N}")
-print(f"Count of 'Y': {count_Y}")
+print(f"Count of 'N': {count_N}, percentage of {count_N/len(df)*100:.2f}%")
+print(f"Count of 'Y': {count_Y}, percentage of {count_Y/len(df)*100:.2f}%")
